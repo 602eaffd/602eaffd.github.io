@@ -1,0 +1,81 @@
+.container-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.container-header .nav-list{
+    margin-right: 2rem;
+}
+
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-one-1{
+    width: 50%;
+}
+.section-one-1 h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.section-one-1 .img{
+    width: 1rem;
+}
+
+.section-one-2{
+    width: 50%;
+}
+
+
+.section-one-2 .button-comprar{
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.section-one .section-one-1 img{
+   display: none;
+}
+
+.section-one .section-one-2 img{
+    width: 50vw;
+}
+
+ .box-title-principal{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 3rem;
+} 
+
+.container-articles .art1{
+    margin: 2rem 1rem;
+}
+
+
+.section-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 2rem 0;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: #F2F2F2;
+}
+
