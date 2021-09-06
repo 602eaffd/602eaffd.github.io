@@ -1,0 +1,11 @@
+.plans-container--slider{
+    justify-content: center;
+}
+
+/* .tables-container--slider{
+    overflow-x: unset;
+} */
+
+.plans-container--slider::-webkit-scrollbar {
+    display: none;
+  }

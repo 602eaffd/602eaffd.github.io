@@ -1,0 +1,83 @@
+/* html{
+    font-size: 80%;
+} */
+
+/* .tables-container--slider{
+    height: 38rem;
+}
+
+.currency-table--date{
+    width: 250px;
+    height: 35px;
+}
+
+.commission-table--date{
+    width: 250px;
+    height: 35px;
+}
+
+.plans-container--card{
+    height: 300px;
+} */
+
+.tables-container--slider{
+    overflow-x:hidden;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2rem 0;
+    align-items: baseline;
+    /* margin: 2rem 2rem; */
+}
+
+.container-footer .part-logo{
+    order: 1;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8rem;
+}
+
+.container-footer .part-logo a{
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+
+.container-footer .part-logo img{
+margin-left: -2rem;
+
+}
+
+.container-footer .part-logo li{
+    margin: 1rem 0;
+    list-style: none;
+    
+}
+
+.container-footer .part-contact{
+    order: 2;
+    margin-top: 0;
+    width: 33.3%;
+    padding-left: 8rem;
+}
+
+.container-footer .part-social{
+    order: 3;
+    width: 33.3%;
+    padding-left: 8rem;
+}
+
+
+.container-footer .part-terms{
+    order: 4;
+    width: 100%;
+}
+
+.container-footer .ocultoMobile{
+    display: contents;
+}
